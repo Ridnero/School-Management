@@ -15,7 +15,7 @@ const GraduatedStudents = () => {
       </div>
 
       <div className="card">
-        <div className="bg-gradient-to-r from-purple-600 to-purple-800 p-6">
+        <div className="bg-linear-to-r from-purple-600 to-purple-800 p-6">
           <h2 className="text-2xl font-bold text-white">Graduated List ({graduated.length})</h2>
         </div>
 

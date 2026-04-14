@@ -4,11 +4,14 @@ import App from "./App";
 import "./index.css";
 import "./App.css";
 import { StudentProvider } from "./context/StudentContext";
+import { SidebarProvider } from "./context/SidebarContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <StudentProvider>
-      <App />
+      <SidebarProvider>
+        <App />
+      </SidebarProvider>
     </StudentProvider>
   </React.StrictMode>
 );
